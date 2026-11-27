@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+    <ApplicationIcon>Kadr.ico</ApplicationIcon>
+    <ApplicationManifest>Kadr.manifest</ApplicationManifest>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <AssemblyName>Shooter MF</AssemblyName>
+    <Product>Shooter MF</Product>
+    <Description>Shooter MF</Description>
+    <Version>1.0.56</Version>
+    <PublishSingleFile>true</PublishSingleFile>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Kadr.ico" LogicalName="Kadr.ico" />
+    <EmbeddedResource Include="Fonts/Geologica-Medium.ttf" LogicalName="Geologica-Medium.ttf" />
+    <EmbeddedResource Include="Fonts/OFL.txt" LogicalName="Geologica-OFL.txt" />
+  </ItemGroup>
+</Project>

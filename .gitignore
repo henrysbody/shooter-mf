@@ -1,0 +1,12 @@
+.DS_Store
+.build/
+.swiftpm/
+bin/
+obj/
+*.user
+*.app/
+*.exe
+*.zip
+*.p12
+*.pfx
+.env

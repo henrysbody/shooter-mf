@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleName</key>
+    <string>Shooter MF</string>
+    <key>CFBundleDisplayName</key>
+    <string>Shooter MF</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.kadr.screenshot</string>
+    <key>CFBundleExecutable</key>
+    <string>Kadr</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.56</string>
+    <key>CFBundleVersion</key>
+    <string>57</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>14.0</string>
+    <key>LSUIElement</key>
+    <true/>
+    <key>NSHighResolutionCapable</key>
+    <true/>
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+    <key>NSScreenCaptureUsageDescription</key>
+    <string>Shooter MF снимает выбранную область экрана, чтобы вы могли добавить пометки и скопировать изображение.</string>
+    <key>NSHumanReadableCopyright</key>
+    <string>Shooter MF, 2026</string>
+</dict>
+</plist>
